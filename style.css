@@ -1,0 +1,101 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(201, 255, 196);
+   
+}
+.heading{
+    background-color: rgba(0, 0, 0, 0.849);
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.heading h2{
+    font-size: 2rem;
+    padding: 12px;
+    color:orange ;
+    }
+.heading h1{
+font-size: 3rem;
+padding: 8px;
+color: rgb(50, 151, 27);
+ 
+}
+.container{
+    text-align: center;
+    justify-content: center;
+    width:100%;
+    min-height: 100vh;
+    
+   
+}
+.heading h4{
+    padding-top: 10px;
+    padding-bottom: 18px;
+    color:orange
+
+}
+.main{
+    width:100%;
+   
+}
+.subcontent h3{
+text-align: center;
+justify-content: center;
+margin:20px;
+padding: 10px;
+line-height: 35px;
+font-size: 2rem;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.button a{
+   text-decoration: none;
+   border-radius: 50px;
+   background-color:rgb(0, 255, 221);
+  padding: 20px;
+  margin: 20px;
+  width: 50px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: larger;
+  
+}
+.updates{
+    width: 100%;
+    margin: 20px auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.updates h6{
+    padding-bottom: 30px;
+    font-size: 2rem;
+    display: inline-block;
+    border-bottom: 5px solid orange;
+    padding-bottom: 2px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px; 
+    margin-top: 10px;
+
+}
+.updates ul li{
+    padding-top: 15px;
+    margin-bottom: 10px;
+    display: inline-block;
+   
+    padding-bottom: 2px;
+}
+.roadmap ul li span{
+   
+    color: orange;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.roadmap ul li {
+    list-style: none;
+    margin: 15px;
+    padding: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
